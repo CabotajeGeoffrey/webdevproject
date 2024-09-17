@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> Single Recipes</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+    <!-- normalize -->
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- main css -->
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <!-- nav -->
+     <nav class="navbar">
+      <div class="nav-center">
+        <div class="nav-header">
+          <a href="index.html" class="nav-logo">
+            <img src="./assets/Food.svg" alt="Logos">
+          </a>
+          <button type="button" class="btn nav-btn">
+            <i class="fas fa-align-justify"></i>
+          </button>
+        </div>
+        <!-- links -->
+        <div class="nav-links">
+          <a href="index.html" class="nav-link">Home</a>
+          <a href="about.html" class="nav-link">About</a>
+          <a href="tags.html" class="nav-link">Tags</a>
+          <a href="recipes.html" class="nav-link">Recipes</a>
+          <div class="nav-link contact-link">
+            <a href="contact.html" class="btn">Contact</a>
+          </div>
+        </div>
+      </div>
+     </nav>
+     <!-- end of nav -->
+      <!-- main -->
+       <main class="page">
+        <div class="recipes-page">
+          <section class="recipe-hero">
+            <article>
+              <h4>Instructions</h4>
+              <!-- single instruction -->
+               <div class="single-instruction">
+                <header>
+                  <p>Step 1</p>
+                  <div></div>
+                </header>
+                <p> Arrange the steak fries in a single layer in 2 greased 15x10x1-in. baking pans. Bake at 450° for 15-18 minutes or until tender and golden brown. </p>
+
+                <!-- single instruction -->
+               <div class="single-instruction">
+                <header>
+                  <p>Step 2</p>
+                  <div></div>
+                </header>
+                <p> Meanwhile, in a small saucepan, combine the soup, milk, garlic powder and onion powder; heat through. Drizzle over fries; sprinkle with paprika. </p>
+               </div>
+            </article>
+            <article class="second-column">
+              <div>
+                <h4>ingredients</h4>
+                <p class="single-ingredient">
+                  1 package (28 ounces) frozen steak fries
+                </p>
+                <p class="single-ingredient"></p>
+                  1 can (10-3/4 ounces) condensed cheddar cheese soup, undiluted
+                </p>
+                <p class="single-ingredient"></p>
+                  1/4 cup 2% milk
+                </p>
+                <p class="single-ingredient"></p>
+                  1/2 teaspoon garlic powder
+                </p>
+                <p class="single-ingredient"></p>
+                  1/4 teaspoon onion powder
+                </p>
+                <p class="single-ingredient">
+                  Paprika
+              </p>
+              </div>
+            </article>
+            <img src="./assets/recipes/recipe-1 appetizer.jpg" class="img recipe-hero-img" alt="fries"/>
+            <article>
+              <h2>Cheese Fries</h2>
+              <p>The dish known as "cheese fries" or "cheesy chips" is made up of French fries dipped in cheese and maybe topped with additional ingredients. Typically, cheese fries are offered for lunch or dinner. They are mostly seen in English-speaking nations in fast-food restaurants, eateries, and barbecues.</p>
+              <!-- recipe icons -->
+               <div class="recipe-icons">
+                <!--single recipeicon-->
+                <article>
+                  <i class="fas fa-clock"></i>
+                  <h5>Total Time</h5>
+                  <p>20 min</p>
+                </article>
+                <!--single recipeicon-->
+                <article>
+                  <i class="fas fa-user-friends"></i>
+                  <h5>servings</h5>
+                  <p>8 servings</p>
+                </article>
+               </div>
+              <!-- recipe tags -->
+               <div class="recipe-tags">
+                Tags: <a href="tag-template.html">Appetizers</a>
+               </div>
+            </article>
+          </section>
+          <!-- recipe content -->
+          <section class="recipe-content"></section>
+        </div>
+      </main>
+      <!-- end of main -->
+       <!-- footer -->
+        <footer class="page-footer">
+          <p> &copy; <span id="date"></span>
+          <span class="footer-logo">Goofy Recipes</span>
+        Built by <a href="https://www.facebook.com/cabotaje.geoffrey">Professional Comedian (char)</a>
+        </p>
+        </footer>
+      <script src="./js/app.js"></script>
+  </body>
+</html>
